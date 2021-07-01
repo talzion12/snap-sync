@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # snap-sync
 # https://github.com/wesbarnett/snap-sync
 # Copyright (C) 2016-2021 Wes Barnett
@@ -34,7 +34,7 @@ printf "snap-sync comes with ABSOLUTELY NO WARRANTY. This is free software, and 
 
 # The following line is modified by the Makefile or
 # find_snapper_config script
-SNAPPER_CONFIG=/etc/conf.d/snapper
+SNAPPER_CONFIG=/etc/sysconfig/snapper
 
 TMPDIR=$(mktemp -d)
 PIPE=$TMPDIR/$name.out
